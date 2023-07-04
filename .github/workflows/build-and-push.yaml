@@ -36,7 +36,7 @@ jobs:
         name: "Docker login"
         with:
           registry: "${{ env.GAR_LOCATION }}-docker.pkg.dev"
-          username: "devops2023"
+          username: "aidanadevops2023"
           password: "${{ steps.auth.outputs.access_token }}"
 
       - name: "Docker push"
